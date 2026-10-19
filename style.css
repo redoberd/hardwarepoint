@@ -354,3 +354,63 @@ footer p {
         background-color: #6757e8;
         color: white;
     }
+/*MOBILEPAGE*/
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    header {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+    .logo img {
+        width: 120px;
+    }
+    nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    nav a {
+        font-size: 14px;
+    }
+    main {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .main-content {
+        width: 100%;
+        box-sizing: boreder-box;
+    }
+    .main-context h1 {
+        font-size: 36px;
+    }
+    .context-categories {
+        text-align: center;
+    }
+    .products {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .rpoducts-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .products-card img {
+        height: 160px;
+    }
+    .component-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .component-box img {
+        width: 100%;
+        max-width: 260px;
+        height: 180px;
+        object-fit: contain;
+    }
+}
