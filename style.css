@@ -66,7 +66,7 @@ footer p {
 footer img {
     width: 20px;
     height: 20px;
-    vartical-align: middle;
+    position: relative;
     margin-left: 6px;
 }
   /*MAIN PAGE*/
