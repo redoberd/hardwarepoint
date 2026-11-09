@@ -63,6 +63,10 @@ footer {
 footer p {
     margin: 0;
 }
+footer img {
+    width: 35px;
+    height: 35px;
+}
   /*MAIN PAGE*/
 
 .main-context {
